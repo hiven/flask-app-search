@@ -8,4 +8,4 @@ class Config(object):
     APP_SEARCH_BASE_ENDPOINT = os.environ.get('APP_SEARCH_BASE_ENDPOINT') or 'localhost:3002/api/as/v1'
     APP_SEARCH_USE_HTTPS = os.environ.get('APP_SEARCH_USE_HTTPS') or 'False'
     # APP_SEARCH_USE_HTTPS = False or False
-    POSTS_PER_PAGE = int(os.environ.get('APP_SEARCH_DOCS_PER_PAGE')) or 10
+    POSTS_PER_PAGE = 10

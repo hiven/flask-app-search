@@ -23,10 +23,5 @@ client_app_search = Client(
     use_https=bool_value
 )
 
-client_blog_search = Client(
-    api_key=app.config['APP_SEARCH_API_KEY_BLOG'],
-    base_endpoint=app.config['APP_SEARCH_BASE_ENDPOINT'],
-    use_https=bool_value
-)
 
 from app import routes
